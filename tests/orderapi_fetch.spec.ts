@@ -19,10 +19,10 @@ test.describe('Fetch Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).not.toBe('');
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })

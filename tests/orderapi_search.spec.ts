@@ -23,25 +23,25 @@ test.describe('Search Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.TotalOrderCount).toBe(pageSize);
-        console.log("TotalOrderCount:",responsebody.TotalOrderCount);
+        //console.log("TotalOrderCount:",responsebody.TotalOrderCount);
 
         const orderId = responsebody.ListOrdersSummary[0].OrderID;
         expect(orderId).not.toBe('');
-        console.log("OrderId:",orderId);
+        //console.log("OrderId:",orderId);
         
         const AccountNumber = responsebody.ListOrdersSummary[0].AccountNumber;
         expect(AccountNumber).toBe('J3333');
-        console.log("AccountNumber:",AccountNumber);
+        //console.log("AccountNumber:",AccountNumber);
         
         const accessionNumber = responsebody.ListOrdersSummary[0].AccessionNumber;
         expect(accessionNumber).toBe('');
 
         const eReqNo = responsebody.ListOrdersSummary[0].EReqNo;
         expect(responsebody.EReqNo).not.toBe('');
-        console.log("EReqNo:",eReqNo);
+        //console.log("EReqNo:",eReqNo);
     })
 
     test('Search Order with Account AG771', async ({request}) => {
@@ -65,15 +65,15 @@ test.describe('Search Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.TotalOrderCount).toBe(0);
-        console.log("TotalOrderCount:",responsebody.TotalOrderCount);
+        //console.log("TotalOrderCount:",responsebody.TotalOrderCount);
 
         expect(responsebody.Status).toBe('No orders found.');
-        console.log("Status:", responsebody.Status);
+        //console.log("Status:", responsebody.Status);
         
         expect(responsebody.HasErrors).toBeTruthy();
-        console.log("Has Errors:", responsebody.HasErrors);
+        //console.log("Has Errors:", responsebody.HasErrors);
     })
 })

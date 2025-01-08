@@ -20,10 +20,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -45,10 +45,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -70,10 +70,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -95,10 +95,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+       // console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -120,10 +120,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -145,10 +145,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -170,10 +170,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
@@ -195,10 +195,10 @@ test.describe('Update Order Flows', async () => {
         const responsebody = await response.json();
 
         expect(response.status()).toBe(200);
-        console.log("response code", response.status());
+        //console.log("response code", response.status());
 
         expect(responsebody.OrderId).toBe(0);
-        console.log("OrderId:", responsebody.OrderId);
+        //console.log("OrderId:", responsebody.OrderId);
 
         expect(responsebody.Tests).toBeDefined();
     })
