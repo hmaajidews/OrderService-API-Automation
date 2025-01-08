@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "orderAPI": "npx playwright test orderapi_create.spec.ts",
+    "orderAPI_postiveflows": "npx playwright test orderapi_create.spec.ts --grep=\"Create Order Positive flows\"",
+    "orderAPI_negativeflows": "npx playwright test orderapi_create.spec.ts --grep=\"Order Creation Negative Flows\"",
+    "searchAPI": "npx playwright test orderapi_search.spec.ts",
+    "fetchAPI": "npx playwright test orderapi_fetch.spec.ts",
+    "updateAPI": "npx playwright test orderapi_update.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

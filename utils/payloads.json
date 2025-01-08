@@ -1,0 +1,3901 @@
+{
+    "CreateOrderWithGivenTestCode": {
+        "ValidateOnly": false,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "-NEW-",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "12/11/2024",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1980",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "NON_FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "B125",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "CreateOrderWithGivenAccountNumber": {
+        "ValidateOnly": false,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "-NEW-",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3332",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "12/11/2024",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1980",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "NON_FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "B125",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "CreateOrderWithMultipleTests": {
+        "ValidateOnly": false,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "j3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/11/2024",
+                "TimeOfCollection": "10:00 AM",
+                "Priority": "ROUTINE",
+                "HasPhysicianSignature": true,
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJLTJPATEL2",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "DDD",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "TEST",
+                    "FirstName": "TEST",
+                    "MiddleName": "T",
+                    "PatientId": "123",
+                    "Gender": "MALE",
+                    "DateOfBirth": "01/01/1980",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "B125",
+                        "IsHoldOverriden": false,
+                        "OrderTestAnswers": []
+                    },
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "0009",
+                        "IsHoldOverriden": false,
+                        "OrderTestAnswers": []
+                    } 
+                ],
+                "Specimens": [
+                    {
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    },
+                    {
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "CreateOrderWithWrongSpecimen": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "j3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "04:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "562",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "OK",
+                    "FirstName": "NO",
+                    "MiddleName": "",
+                    "PatientId": "888",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/10/1970",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "123901",
+                    "Code": "410340",
+                    "FirstName": "MAMATHA",
+                    "LastName": "1080"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    },
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "4931",
+                        "Code": "1184762718",
+                        "FirstName": "DAVID",
+                        "LastName": "30159"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J148",
+                        "DateCollected": "12/31/2024 04:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 19712,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "No prior biopsy",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "Nodule",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "76 years or older and PSA greater than 4 ng/mL",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "Confirmed PSA > 3.0 ng mL",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "YES",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "55",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "LAV",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithAgeLessThanRequired": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "j3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "04:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "154",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "MIO",
+                    "FirstName": "LIO",
+                    "MiddleName": "",
+                    "PatientId": "259",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/10/1981",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "136942",
+                        "Code": "6787665454",
+                        "FirstName": "test by taj",
+                        "LastName": "5544"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J148",
+                        "DateCollected": "12/31/2024 04:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 21333,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "Yes, Negative",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "Nodule",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "45-54 years and PSA greater than 2 ng/mL",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "Confirmed Persistent and Significant Rise in PSA",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "YES",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "174",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "2024-12-31T04:36:47.182611-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-31T04:39:26.3195557-05:00"
+    },
+    "CreateOrderWithNoSpecimen": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "j3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "0",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "04:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "654",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "OK",
+                    "FirstName": "OK",
+                    "MiddleName": "",
+                    "PatientId": "99",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/05/1972",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "123901",
+                    "Code": "410340",
+                    "FirstName": "MAMATHA",
+                    "LastName": "1080"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "4931",
+                        "Code": "1184762718",
+                        "FirstName": "DAVID",
+                        "LastName": "30159"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J148",
+                        "DateCollected": "12/31/2024 04:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "Yes, Negative",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "Nodule",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "76 years or older and PSA greater than 4 ng/mL",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "Confirmed PSA > 3.0 ng mL",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "YES",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "36",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "2024-12-31T05:12:28.3834785-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-31T05:14:30.0859645-05:00"
+    },
+    "CreateOrderWithDOCinPast": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "-NEW-",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/01/2000",
+        "TimeOfCollection": "",
+        "Priority": "STAT",
+        "STATPriorityIncidentId": "2",
+        "AlternateDateCollected": "",
+        "SpecimenComments": "",
+        "Comments": "",
+        "BillingType": "UNKNOWN",
+        "InitialReceivedDate": "2024-12-24T00:00:00",
+        "HasPhysicianSignature": true,
+        "SurgicalNumber": "",
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTRATHAKUR",
+        "OrderAnswers": [
+            {
+                "AnswerText": "",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "RAJ",
+            "FirstName": "RAJ",
+            "MiddleName": "",
+            "PatientId": "4444",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1980",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "123901",
+            "Code": "410340",
+            "FirstName": "MAMATHA",
+            "LastName": "1080"
+        },
+        "SecondaryPhysicians": [],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "0134",
+                "DateCollected": "01/01/2000 ",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 0,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": [
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C042",
+                        "QuestionText": "IS PATIENT PREGNANT?",
+                        "AnswerText": "",
+                        "TestName": "PREGNANT",
+                        "Condition": 1,
+                        "CauseDemoUpdate": false,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "0134"
+                    }
+                ]
+            }
+        ],
+        "Specimens": [
+            {
+                "SpecimenID": 0,
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionUpdateSummaries": [],
+        "FlaggedTests": [],
+        "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+        "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithStateRestricted": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3337",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "03:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [],
+                "Patient": {
+                    "LastName": "MIGHTY",
+                    "FirstName": "RIGHT",
+                    "MiddleName": "",
+                    "PatientId": "154",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/10/1972",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "9602",
+                    "Code": "1194982579",
+                    "FirstName": "ADESUWA",
+                    "LastName": "OKESANYA"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "21477",
+                        "Code": "1407839418",
+                        "FirstName": "SURINDERJEET",
+                        "LastName": "SANDHU"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "B456",
+                        "DateCollected": "12/31/2024 03:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 1674,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "2024-12-31T03:13:46.514014-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-31T03:16:47.4820403-05:00"
+    },
+    "CreateOrderWithRetiredTest": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/24/2024",
+                "TimeOfCollection": "",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-24T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJLTRATHAKUR",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "1111",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "RAJ",
+                    "FirstName": "RAJ",
+                    "MiddleName": "",
+                    "PatientId": "3333",
+                    "Gender": "MALE",
+                    "DateOfBirth": "01/01/1990",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "123901",
+                    "Code": "410340",
+                    "FirstName": "MAMATHA",
+                    "LastName": "1080"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "P598",
+                        "DateCollected": "12/24/2024 ",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 20800,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    },
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "PINK",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    },
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "LAV",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [
+                    {
+                        "Category": "AddSpecimen",
+                        "SummaryText": "User confirmed :The numbers of specimens entered is greater than the initial count"
+                    }
+                ],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithClarifyTest": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "04:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "655",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "MY",
+                    "FirstName": "MY",
+                    "MiddleName": "",
+                    "PatientId": "156",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/12/1967",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "4931",
+                    "Code": "1184762718",
+                    "FirstName": "DAVID",
+                    "LastName": "30159"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "125149",
+                        "Code": "411475",
+                        "FirstName": "Test",
+                        "LastName": "1975"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "C999",
+                        "DateCollected": "12/31/2024 04:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 1,
+                                "FormatType": 13,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "O027",
+                                "QuestionText": "Clarify Test",
+                                "AnswerText": "455",
+                                "TestName": "Clarify Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "C999"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "2024-12-31T04:58:43.2333937-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-31T05:03:24.1532258-05:00"
+    },
+    "CreateOrderWithMaleTestOnly": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/26/2024",
+                "TimeOfCollection": "05:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-26T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "256",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "MUK",
+                    "FirstName": "AHM",
+                    "MiddleName": "",
+                    "PatientId": "22",
+                    "Gender": "FEMALE",
+                    "DateOfBirth": "10/10/1975",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "128165",
+                        "Code": "1366616484",
+                        "FirstName": "WERNER",
+                        "LastName": "ANDRADE ORTIZ"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J148",
+                        "DateCollected": "12/26/2024 05:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "Not Provided",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "Not Provided",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "45-54 years and PSA greater than 2 ng/mL",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "Confirmed PSA > 3.0 ng mL,Confirmed Persistent and Significant Rise in PSA",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "YES",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "154",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithFemaleTestOnly": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "-NEW-",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "",
+        "TimeOfCollection": "04:00 AM",
+        "Priority": "ROUTINE",
+        "STATPriorityIncidentId": "",
+        "AlternateDateCollected": "",
+        "SpecimenComments": "",
+        "Comments": "",
+        "BillingType": "UNKNOWN",
+        "InitialReceivedDate": "2024-12-31T00:00:00",
+        "HasPhysicianSignature": true,
+        "SurgicalNumber": "",
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJD1OFSRVM26",
+        "OrderAnswers": [
+            {
+                "AnswerText": "555",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "MIN",
+            "FirstName": "KIN",
+            "MiddleName": "",
+            "PatientId": "457",
+            "Gender": "MALE",
+            "DateOfBirth": "12/02/1968",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "123901",
+            "Code": "410340",
+            "FirstName": "MAMATHA",
+            "LastName": "1080"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "125149",
+                "Code": "411475",
+                "FirstName": "Test",
+                "LastName": "1975"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "0327",
+                "DateCollected": "12/31/2024 04:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 3010,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": []
+            },
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "1201",
+                "DateCollected": "12/31/2024 04:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "True",
+                "AutoAddParentCode": "0327",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 0,
+                "TestConditionId_TM": 18,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "SpecimenID": 0,
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionUpdateSummaries": [],
+        "FlaggedTests": [],
+        "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+        "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithDuplicateSpecimen": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "2",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "05:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "582",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "MO",
+                    "FirstName": "IO",
+                    "MiddleName": "",
+                    "PatientId": "897",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/10/1970",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "0009",
+                        "DateCollected": "12/31/2024 05:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "2",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithDifferentAccount": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3332",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/11/2024",
+                "TimeOfCollection": "10:00 AM",
+                "Priority": "ROUTINE",
+                "HasPhysicianSignature": true,
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJLTJPATEL2",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "DDD",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "TEST",
+                    "FirstName": "TEST",
+                    "MiddleName": "T",
+                    "PatientId": "123",
+                    "Gender": "MALE",
+                    "DateOfBirth": "01/01/1980",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "0009",
+                        "IsHoldOverriden": false,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "CreateOrderWithProviderInactivePCLFlag": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/24/2024",
+                "TimeOfCollection": "",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-24T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJLTRATHAKUR",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "2222",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    },
+                    {
+                        "AnswerText": "2222",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "RAJ",
+                    "FirstName": "RAJ",
+                    "MiddleName": "RAJ",
+                    "PatientId": "2222",
+                    "Gender": "MALE",
+                    "DateOfBirth": "01/01/1990",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "123581",
+                    "Code": "3333333333",
+                    "FirstName": "TESTKAREN",
+                    "LastName": "TESTPROVIDER"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "123937",
+                        "Code": "1234567894",
+                        "FirstName": "MP",
+                        "LastName": "0322"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "0134",
+                        "DateCollected": "12/24/2024 ",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C042",
+                                "QuestionText": "IS PATIENT PREGNANT?",
+                                "AnswerText": "YES",
+                                "TestName": "PREGNANT",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "0134"
+                            }
+                        ]
+                    },
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "0002",
+                        "DateCollected": "12/24/2024 ",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "CreateOrderWithPreapprovalPAHFlag": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "1",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "01/07/2025",
+                "TimeOfCollection": "03:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "154",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "MILD",
+                    "FirstName": "TEST",
+                    "MiddleName": "",
+                    "PatientId": "222",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/03/1985",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "123901",
+                    "Code": "410340",
+                    "FirstName": "MAMATHA",
+                    "LastName": "1080"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "125522",
+                        "Code": "2587413695",
+                        "FirstName": "nikki",
+                        "LastName": "about"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "9680",
+                        "DateCollected": "12/31/2024 03:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 0,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": []
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "2024-12-31T03:51:16.8027935-05:00",
+                "AccessionCreateSessionEndDateTime": "2024-12-31T03:52:47.5969563-05:00"
+    },
+    "CreateOrderWithDuplicateDUPFlag": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "-NEW-",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "2",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/07/2025",
+        "TimeOfCollection": "06:00 AM",
+        "Priority": "ROUTINE",
+        "STATPriorityIncidentId": "",
+        "AlternateDateCollected": "",
+        "SpecimenComments": "",
+        "Comments": "",
+        "BillingType": "UNKNOWN",
+        "InitialReceivedDate": "2025-01-07T00:00:00",
+        "HasPhysicianSignature": true,
+        "SurgicalNumber": "",
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJD1OFSRVM26",
+        "OrderAnswers": [
+            {
+                "AnswerText": "896",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "MOP",
+            "FirstName": "OKI",
+            "MiddleName": "",
+            "PatientId": "456",
+            "Gender": "MALE",
+            "DateOfBirth": "01/02/1968",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "123901",
+            "Code": "410340",
+            "FirstName": "MAMATHA",
+            "LastName": "1080"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "4931",
+                "Code": "1184762718",
+                "FirstName": "DAVID",
+                "LastName": "30159"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "J264",
+                "DateCollected": "01/07/2025 06:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 3404,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": [
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C309",
+                        "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                        "AnswerText": "Yes",
+                        "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C522",
+                        "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                        "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                        "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C171",
+                        "QuestionText": "Prostate Biopsy History:",
+                        "AnswerText": "Yes, Negative",
+                        "TestName": "Biopsy History",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C169",
+                        "QuestionText": "DRE Result: ",
+                        "AnswerText": "Nodule",
+                        "TestName": "DRE Results",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C310",
+                        "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                        "AnswerText": "76 years or older and PSA greater than 4 ng/mL",
+                        "TestName": "PATIENT CONFIRMED PSA",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C311",
+                        "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                        "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                        "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C263",
+                        "QuestionText": "Patient History (Choose all that apply)",
+                        "AnswerText": "Confirmed Persistent and Significant Rise in PSA",
+                        "TestName": "Patient History",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C264",
+                        "QuestionText": "Other (Patient History):",
+                        "AnswerText": "NOT PROVIDED",
+                        "TestName": "Other",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C270",
+                        "QuestionText": "4K test order discussed with patient? ",
+                        "AnswerText": "YES",
+                        "TestName": "4K Order Discussed w/Patient",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C465",
+                        "QuestionText": "Enter UDI Barcode ",
+                        "AnswerText": "896",
+                        "TestName": "Enter UDI Barcode",
+                        "Condition": 1,
+                        "CauseDemoUpdate": false,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "J264"
+                    }
+                ]
+            },
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "K135",
+                "DateCollected": "01/07/2025 06:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 0,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": [
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C309",
+                        "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                        "AnswerText": "Yes",
+                        "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C522",
+                        "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                        "AnswerText": "> = 76 years old and total PSA > = 4 ng/mL",
+                        "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C171",
+                        "QuestionText": "Prostate Biopsy History:",
+                        "AnswerText": "Yes, Negative",
+                        "TestName": "Biopsy History",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C169",
+                        "QuestionText": "DRE Result: ",
+                        "AnswerText": "Nodule",
+                        "TestName": "DRE Results",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C310",
+                        "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                        "AnswerText": "76 years or older and PSA greater than 4 ng/mL",
+                        "TestName": "PATIENT CONFIRMED PSA",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C311",
+                        "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                        "AnswerText": "Yes, the 4Kscore Test is medically reasonable and necessary for the biopsy decision.  The patient DOES NOT have factors indicating a biopsy should occur.",
+                        "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C263",
+                        "QuestionText": "Patient History (Choose all that apply)",
+                        "AnswerText": "Confirmed Persistent and Significant Rise in PSA",
+                        "TestName": "Patient History",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C264",
+                        "QuestionText": "Other (Patient History):",
+                        "AnswerText": "NOT PROVIDED",
+                        "TestName": "Other",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C270",
+                        "QuestionText": "4K test order discussed with patient? ",
+                        "AnswerText": "YES",
+                        "TestName": "4K Order Discussed w/Patient",
+                        "Condition": 1,
+                        "CauseDemoUpdate": true,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    },
+                    {
+                        "QuestionType": 2,
+                        "FormatType": 0,
+                        "DataMappingProperty": "",
+                        "QuestionCode": "C465",
+                        "QuestionText": "Enter UDI Barcode ",
+                        "AnswerText": "896",
+                        "TestName": "Enter UDI Barcode",
+                        "Condition": 1,
+                        "CauseDemoUpdate": false,
+                        "IsTestAOE": true,
+                        "GroupCode": "",
+                        "TestCode": "K135"
+                    }
+                ]
+            }
+        ],
+        "Specimens": [
+            {
+                "SpecimenID": 0,
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionUpdateSummaries": [],
+        "FlaggedTests": [],
+        "AccessionCreateSessionStartDateTime": "2025-01-07T09:57:46.351442-05:00",
+        "AccessionCreateSessionEndDateTime": "2025-01-07T10:00:06.7412661-05:00"
+    },
+    "CreateOrderWithCNPD": {
+        "ValidateOnly": true,
+                "OrderSource": "SINGLE_SCREEN",
+                "OrderId": 0,
+                "AccessionNumber": "-NEW-",
+                "AccessioningDivision": "1",
+                "AccountNumber": "J3333",
+                "EReqNumber": "",
+                "IsBioRequisition": true,
+                "IsNamesMatch": true,
+                "IsTwoIDOnSpecimen": true,
+                "SpecimenCount": "1",
+                "TestCount": "2",
+                "RequisitionType": "MANUAL_QUICK",
+                "DateOfCollection": "12/31/2024",
+                "TimeOfCollection": "03:00 AM",
+                "Priority": "ROUTINE",
+                "STATPriorityIncidentId": "",
+                "AlternateDateCollected": "",
+                "SpecimenComments": "",
+                "Comments": "",
+                "BillingType": "UNKNOWN",
+                "InitialReceivedDate": "2024-12-31T00:00:00",
+                "HasPhysicianSignature": true,
+                "SurgicalNumber": "",
+                "WorkflowType": "SINGLE_SCREEN",
+                "WorkflowStep": "ALL",
+                "ComputerName": "NJD1OFSRVM26",
+                "OrderAnswers": [
+                    {
+                        "AnswerText": "139",
+                        "Condition": 0,
+                        "DataMappingProperty": "Order.OVOrderNumber",
+                        "Format": 13,
+                        "QuestionCode": "C012",
+                        "QuestionId": 12900,
+                        "QuestionText": "Please enter Requisition #"
+                    }
+                ],
+                "Patient": {
+                    "LastName": "ALEX",
+                    "FirstName": "TRY",
+                    "MiddleName": "",
+                    "PatientId": "1233",
+                    "Gender": "MALE",
+                    "DateOfBirth": "10/05/1985",
+                    "Age": "",
+                    "Race": "",
+                    "Ethnicity": "",
+                    "IsFasting": "FASTING"
+                },
+                "PrimaryPhysician": {
+                    "ActionType": "1",
+                    "ProviderId": "125149",
+                    "Code": "411475",
+                    "FirstName": "TEST",
+                    "LastName": "1975"
+                },
+                "SecondaryPhysicians": [
+                    {
+                        "ActionType": "1",
+                        "ProviderId": "128159",
+                        "Code": "1952456477",
+                        "FirstName": "GILBERTO",
+                        "LastName": "ACOSTA"
+                    }
+                ],
+                "Tests": [
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J264",
+                        "DateCollected": "12/31/2024 03:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 23525,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "55-75 years old and total PSA > = 3 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "Yes, Positive",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "No Nodule",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "Not Provided",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Not provided",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "NOT PROVIDED,Other",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "NO",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "12",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J264"
+                            }
+                        ]
+                    },
+                    {
+                        "ActionType": "1",
+                        "OrderTestId": 0,
+                        "TestCode": "J148",
+                        "DateCollected": "12/31/2024 03:00 AM",
+                        "IsHoldOverriden": false,
+                        "OrderedTestCode": "",
+                        "ParentTestCode": "",
+                        "IsAutoAddOnNSR": "False",
+                        "AutoAddParentCode": "",
+                        "IsPresumptiveTest": "False",
+                        "TestActionId_TM": 21333,
+                        "TestConditionId_TM": 0,
+                        "OrderTestAnswers": [
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C309",
+                                "QuestionText": "Is provider signature, name and date present on the requisition? (all three required for yes)",
+                                "AnswerText": "Yes",
+                                "TestName": "NEED PROVIDER SIGNATURE, NAME, AND DATE",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C522",
+                                "QuestionText": "Clinical Indication for Ordering The 4Kscore Test:\r\nSelecting a value below confirms that the patient had two or more elevated PSA results within the past two years. Note: The 4Kscore Test should only be ordered when medically reasonable for consideration of biopsy after excluding benign cause of PSA elevation.",
+                                "AnswerText": "55-75 years old and total PSA > = 3 ng/mL",
+                                "TestName": "Clinical Indication for Ordering The 4Kscore Test",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C171",
+                                "QuestionText": "Prostate Biopsy History:",
+                                "AnswerText": "Yes, Positive",
+                                "TestName": "Biopsy History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C169",
+                                "QuestionText": "DRE Result: ",
+                                "AnswerText": "No Nodule",
+                                "TestName": "DRE Results",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C310",
+                                "QuestionText": "Patient confirmed PSA (two or more results several weeks apart)",
+                                "AnswerText": "Not Provided",
+                                "TestName": "PATIENT CONFIRMED PSA",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C311",
+                                "QuestionText": "Is the 4Kscore Test medically reasonable and necessary for the prostate biopsy decision, or does the patient have factors that indicate a biopsy should occur no matter what the 4Kscore result is?  ",
+                                "AnswerText": "Not provided",
+                                "TestName": "PATIENT PROSTATE BIOPSY FACTORS",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C263",
+                                "QuestionText": "Patient History (Choose all that apply)",
+                                "AnswerText": "NOT PROVIDED,Other",
+                                "TestName": "Patient History",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C264",
+                                "QuestionText": "Other (Patient History):",
+                                "AnswerText": "NOT PROVIDED",
+                                "TestName": "Other",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C270",
+                                "QuestionText": "4K test order discussed with patient? ",
+                                "AnswerText": "NO",
+                                "TestName": "4K Order Discussed w/Patient",
+                                "Condition": 1,
+                                "CauseDemoUpdate": true,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            },
+                            {
+                                "QuestionType": 2,
+                                "FormatType": 0,
+                                "DataMappingProperty": "",
+                                "QuestionCode": "C465",
+                                "QuestionText": "Enter UDI Barcode ",
+                                "AnswerText": "12",
+                                "TestName": "Enter UDI Barcode",
+                                "Condition": 1,
+                                "CauseDemoUpdate": false,
+                                "IsTestAOE": true,
+                                "GroupCode": "",
+                                "TestCode": "J148"
+                            }
+                        ]
+                    }
+                ],
+                "Specimens": [
+                    {
+                        "SpecimenID": 0,
+                        "ActionType": "1",
+                        "SpecimenCode": "SST",
+                        "Quantity": "1",
+                        "Temperature": "ROOM",
+                        "IsHoldOverriden": false
+                    }
+                ],
+                "MetaData": [
+                    {
+                        "Name": "AccessioningSystem",
+                        "Value": "SingleScreen"
+                    },
+                    {
+                        "Name": "AllowNotOrderableTests",
+                        "Value": "True"
+                    }
+                ],
+                "AccessionUpdateSummaries": [],
+                "FlaggedTests": [],
+                "AccessionCreateSessionStartDateTime": "0001-01-01T00:00:00",
+                "AccessionCreateSessionEndDateTime": "0001-01-01T00:00:00"
+    },
+    "UpdateOrderWithDOCChangeJ148LAV": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "12/22/2024",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+        {
+        "AnswerText": "DDD",
+        "Condition": 0,
+        "DataMappingProperty": "Order.OVOrderNumber",
+        "Format": 13,
+        "QuestionCode": "C012",
+        "QuestionId": 12900,
+        "QuestionText": "Please enter Requisition #"
+        }
+        ],
+        "Patient": {
+        "LastName": "TEST",
+        "FirstName": "TEST",
+        "MiddleName": "T",
+        "PatientId": "123",
+        "Gender": "MALE",
+        "DateOfBirth": "01/01/1975",
+        "Age": "",
+        "Race": "",
+        "Ethnicity": "",
+        "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+        "ActionType": "1",
+        "ProviderId": "125149",
+        "Code": "411475",
+        "FirstName": "TEST",
+        "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+        {
+        "ActionType": "1",
+        "ProviderId": "123937",
+        "Code": "1234567894",
+        "FirstName": "MP",
+        "LastName": "0322"
+        }
+        ],
+        "Tests": [
+        {
+        "ActionType": "2",
+        "OrderTestId": 0,
+        "TestCode": "j148",
+        "IsHoldOverriden": false,
+        "OrderTestAnswers": []
+        }
+        ],
+        "Specimens": [
+        {
+        "ActionType": "1",
+        "SpecimenCode": "LAV",
+        "Quantity": "1",
+        "Temperature": "ROOM",
+        "IsHoldOverriden": false
+        }
+        ],
+        "MetaData": [
+        {
+        "Name": "AccessioningSystem",
+        "Value": "SingleScreen"
+        },
+        {
+        "Name": "AllowNotOrderableTests",
+        "Value": "True"
+        }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "ChangeDateOfBirth": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/03/2025",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+            "AnswerText": "DDD",
+            "Condition": 0,
+            "DataMappingProperty": "Order.OVOrderNumber",
+            "Format": 13,
+            "QuestionCode": "C012",
+            "QuestionId": 12900,
+            "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1965",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+            },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+            },
+        "SecondaryPhysicians": [
+            {
+            "ActionType": "1",
+            "ProviderId": "123937",
+            "Code": "1234567894",
+            "FirstName": "MP",
+            "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+            "ActionType": "2",
+            "OrderTestId": 0,
+            "TestCode": "j148",
+            "IsHoldOverriden": false,
+            "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+            "ActionType": "1",
+            "SpecimenCode": "LAV",
+            "Quantity": "1",
+            "Temperature": "ROOM",
+            "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+            "Name": "AccessioningSystem",
+            "Value": "SingleScreen"
+            },
+            {
+            "Name": "AllowNotOrderableTests",
+            "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "UpdateTestcodeSpecimen0102LAV": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/03/2025",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1975",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "2",
+                "OrderTestId": 0,
+                "TestCode": "0102",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "LAV",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "UpdateTestcodeSpecimenJ148SST" : {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/03/2025",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1975",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "2",
+                "OrderTestId": 0,
+                "TestCode": "J148",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "RemoveTest": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "12/22/2024",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1975",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "LAV",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "UpdateSpecimenJ148SST": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/03/2025",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1975",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "125149",
+            "Code": "411475",
+            "FirstName": "TEST",
+            "LastName": "1975"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "2",
+                "OrderTestId": 0,
+                "TestCode": "j148",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "LAV",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "UpdateProviderDetails": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 4586864,
+        "AccessionNumber": "101218148",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "1",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "12/22/2024",
+        "TimeOfCollection": "10:00 AM",
+        "Priority": "ROUTINE",
+        "HasPhysicianSignature": true,
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJLTJPATEL2",
+        "OrderAnswers": [
+            {
+                "AnswerText": "DDD",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "TEST",
+            "FirstName": "TEST",
+            "MiddleName": "T",
+            "PatientId": "123",
+            "Gender": "MALE",
+            "DateOfBirth": "01/01/1975",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "1",
+            "Code": "OTE445",
+            "FirstName": "FirstName",
+            "LastName": "LastName"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "123937",
+                "Code": "1234567894",
+                "FirstName": "MP",
+                "LastName": "0322"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "2",
+                "OrderTestId": 0,
+                "TestCode": "j148",
+                "IsHoldOverriden": false,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "ActionType": "1",
+                "SpecimenCode": "SST",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionCreateSessionStartDateTime": "2024-12-11T11:32:03.2686383-05:00",
+        "AccessionCreateSessionEndDateTime": "2024-12-11T11:33:08.2540611-05:00"
+    },
+    "AddingATest": {
+        "ValidateOnly": true,
+        "OrderSource": "SINGLE_SCREEN",
+        "OrderId": 0,
+        "AccessionNumber": "101218157",
+        "AccessioningDivision": "1",
+        "AccountNumber": "J3333",
+        "EReqNumber": "",
+        "IsBioRequisition": true,
+        "IsNamesMatch": true,
+        "IsTwoIDOnSpecimen": true,
+        "SpecimenCount": "1",
+        "TestCount": "2",
+        "RequisitionType": "MANUAL_QUICK",
+        "DateOfCollection": "01/03/2025",
+        "TimeOfCollection": "04:00 AM",
+        "Priority": "ROUTINE",
+        "STATPriorityIncidentId": "",
+        "AlternateDateCollected": "",
+        "SpecimenComments": "",
+        "Comments": "",
+        "BillingType": "UNKNOWN",
+        "InitialReceivedDate": "2025-01-03T00:00:00",
+        "HasPhysicianSignature": true,
+        "SurgicalNumber": "",
+        "WorkflowType": "SINGLE_SCREEN",
+        "WorkflowStep": "ALL",
+        "ComputerName": "NJD1OFSRVM26",
+        "OrderAnswers": [
+            {
+                "AnswerText": "965",
+                "Condition": 0,
+                "DataMappingProperty": "Order.OVOrderNumber",
+                "Format": 13,
+                "QuestionCode": "C012",
+                "QuestionId": 12900,
+                "QuestionText": "Please enter Requisition #"
+            }
+        ],
+        "Patient": {
+            "LastName": "IK",
+            "FirstName": "KO",
+            "MiddleName": "",
+            "PatientId": "968",
+            "Gender": "MALE",
+            "DateOfBirth": "10/04/1964",
+            "Age": "",
+            "Race": "",
+            "Ethnicity": "",
+            "IsFasting": "FASTING"
+        },
+        "PrimaryPhysician": {
+            "ActionType": "1",
+            "ProviderId": "123901",
+            "Code": "410340",
+            "FirstName": "MAMATHA",
+            "LastName": "1080"
+        },
+        "SecondaryPhysicians": [
+            {
+                "ActionType": "1",
+                "ProviderId": "4931",
+                "Code": "1184762718",
+                "FirstName": "DAVID",
+                "LastName": "30159"
+            }
+        ],
+        "Tests": [
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "0034",
+                "DateCollected": "01/03/2025 04:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 0,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": []
+            },
+            {
+                "ActionType": "1",
+                "OrderTestId": 0,
+                "TestCode": "0053",
+                "DateCollected": "01/03/2025 04:00 AM",
+                "IsHoldOverriden": false,
+                "OrderedTestCode": "",
+                "ParentTestCode": "",
+                "IsAutoAddOnNSR": "False",
+                "AutoAddParentCode": "",
+                "IsPresumptiveTest": "False",
+                "TestActionId_TM": 0,
+                "TestConditionId_TM": 0,
+                "OrderTestAnswers": []
+            }
+        ],
+        "Specimens": [
+            {
+                "SpecimenID": 0,
+                "ActionType": "1",
+                "SpecimenCode": "LAV",
+                "Quantity": "1",
+                "Temperature": "ROOM",
+                "IsHoldOverriden": false
+            }
+        ],
+        "MetaData": [
+            {
+                "Name": "AccessioningSystem",
+                "Value": "SingleScreen"
+            },
+            {
+                "Name": "AllowNotOrderableTests",
+                "Value": "True"
+            }
+        ],
+        "AccessionUpdateSummaries": [],
+        "FlaggedTests": [],
+        "AccessionCreateSessionStartDateTime": "2025-01-03T08:00:46.3180022-05:00",
+        "AccessionCreateSessionEndDateTime": "2025-01-03T08:03:46.5095249-05:00"
+    }
+}
