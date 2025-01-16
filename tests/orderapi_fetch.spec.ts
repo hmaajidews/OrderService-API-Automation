@@ -1,4 +1,5 @@
 import {test, expect} from '@playwright/test'
+import {baseUrl} from '../utils/global.var';
 
 test.describe('Fetch Order Flows', async () => {
 
@@ -7,7 +8,7 @@ test.describe('Fetch Order Flows', async () => {
         let userName: string = 'Raj';
         let accountNumber: string = '';
         let eReqNumber: string = 'J3333,QA11252';
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Fetch?callingApp=" + callingApp + "&userName=" + userName + "&eReqNumber=" + eReqNumber + "&accountNumber=" + accountNumber;
+        let testURL = baseUrl + "Fetch?callingApp=" + callingApp + "&userName=" + userName + "&eReqNumber=" + eReqNumber + "&accountNumber=" + accountNumber;
 
         const response = await request.get(testURL, {
             headers: {

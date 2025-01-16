@@ -1,5 +1,6 @@
 import {test, expect} from '@playwright/test'
 import payloads from '../utils/payloads.json';
+import {baseUrl} from '../utils/global.var';
 
 test.describe('Update Order Flows', async () => {
 
@@ -7,7 +8,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -32,7 +33,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -57,7 +58,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -82,7 +83,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -107,7 +108,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -132,7 +133,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -157,7 +158,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -182,7 +183,7 @@ test.describe('Update Order Flows', async () => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {

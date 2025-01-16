@@ -1,4 +1,5 @@
 import {test, expect} from '@playwright/test'
+import {baseUrl} from '../utils/global.var';
 
 test.describe('Search Order Flows', async () => {
 
@@ -10,7 +11,7 @@ test.describe('Search Order Flows', async () => {
         let fetchAccessioned: boolean = false;
         let pageIndex: number = 0;
         let pageSize: number = 30;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Search?callingApp=" + callingApp + "&userName=" + userName + "&fromDate=&toDate=&ovOrderNumber=&accountNumber=" + accountNumber + "&patientLastName=&patientFirstName=&patientDOB=&patientID=&eReqNumber=&divisionId=&excludeStatus=" + excludeStatus + "&fetchAccessioned=" + fetchAccessioned + "&providerLastName=&providerFirstName=&patientEUID=&enterersLocation=&pageIndex=" + pageIndex + "&pageSize=" + pageSize + "&clientId=";
+        let testURL = baseUrl + "Search?callingApp=" + callingApp + "&userName=" + userName + "&fromDate=&toDate=&ovOrderNumber=&accountNumber=" + accountNumber + "&patientLastName=&patientFirstName=&patientDOB=&patientID=&eReqNumber=&divisionId=&excludeStatus=" + excludeStatus + "&fetchAccessioned=" + fetchAccessioned + "&providerLastName=&providerFirstName=&patientEUID=&enterersLocation=&pageIndex=" + pageIndex + "&pageSize=" + pageSize + "&clientId=";
         
         const response = await request.get(testURL, {
             headers: {
@@ -52,7 +53,7 @@ test.describe('Search Order Flows', async () => {
         let fetchAccessioned: boolean = false;
         let pageIndex: number = 0;
         let pageSize: number = 1;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Search?callingApp=" + callingApp + "&userName=" + userName + "&fromDate=&toDate=&ovOrderNumber=&accountNumber=" + accountNumber + "&patientLastName=&patientFirstName=&patientDOB=&patientID=&eReqNumber=&divisionId=&excludeStatus=" + excludeStatus + "&fetchAccessioned=" + fetchAccessioned + "&providerLastName=&providerFirstName=&patientEUID=&enterersLocation=&pageIndex=" + pageIndex + "&pageSize=" + pageSize + "&clientId=";
+        let testURL = baseUrl + "Search?callingApp=" + callingApp + "&userName=" + userName + "&fromDate=&toDate=&ovOrderNumber=&accountNumber=" + accountNumber + "&patientLastName=&patientFirstName=&patientDOB=&patientID=&eReqNumber=&divisionId=&excludeStatus=" + excludeStatus + "&fetchAccessioned=" + fetchAccessioned + "&providerLastName=&providerFirstName=&patientEUID=&enterersLocation=&pageIndex=" + pageIndex + "&pageSize=" + pageSize + "&clientId=";
     
         const response = await request.get(testURL, {
             headers: {

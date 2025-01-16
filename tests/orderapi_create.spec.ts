@@ -1,5 +1,6 @@
 import {test, expect} from '@playwright/test'
 import payloads from '../utils/payloads.json';
+import {baseUrl} from '../utils/global.var';
 
 test.describe('Create Order Positive flows', async () => {
 
@@ -8,7 +9,7 @@ test.describe('Create Order Positive flows', async () => {
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
         let accountNumber: string = 'J3333'
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp+ "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
         
         const response = await request.post(testURL, {
             headers: {
@@ -52,7 +53,7 @@ test.describe('Create Order Positive flows', async () => {
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
         let accountNumber: string = 'J3332';
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp+ "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
         
         const response = await request.post(testURL, {
             headers: {
@@ -97,7 +98,7 @@ test.describe('Create Order Positive flows', async () => {
         let isScarlet: boolean = false;
         let accountNumber: string = 'j3333';
         let testCode1: string = '0009';
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp+ "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
         
         const response = await request.post(testURL, {
             headers: {
@@ -153,7 +154,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -183,7 +184,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -213,7 +214,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -243,7 +244,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -273,7 +274,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -303,7 +304,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -333,7 +334,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -363,7 +364,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -393,20 +394,20 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const payload = payloads.CreateOrderWithFemaleTestOnly;
 
         const today = new Date();
 
-        const formatDate = (date) => {
+        const formatDate = (date: Date) => {
             const month = String(date.getMonth() + 1).padStart(2, '0');
             const day = String(date.getDate()).padStart(2, '0');
             const year = date.getFullYear();
             return `${month}/${day}/${year}`;
           };
 
-        const formatTimeForTimeZone = (timeZone) => {
+        const formatTimeForTimeZone = (timeZone: string) => {
             const options = {
                 hour: '2-digit' as '2-digit',
                 minute: '2-digit' as '2-digit',
@@ -458,20 +459,20 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const payload = payloads.CreateOrderWithDuplicateSpecimen;
         
         const today = new Date();
 
-        const formatDate = (date) => {
+        const formatDate = (date: Date) => {
             const month = String(date.getMonth() + 1).padStart(2, '0');
             const day = String(date.getDate()).padStart(2, '0');
             const year = date.getFullYear();
             return `${month}/${day}/${year}`;
           };
 
-        const formatTimeForTimeZone = (timeZone) => {
+        const formatTimeForTimeZone = (timeZone: string) => {
             const options = {
                 hour: '2-digit' as '2-digit',
                 minute: '2-digit' as '2-digit',
@@ -521,7 +522,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -551,7 +552,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -581,7 +582,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
@@ -611,14 +612,47 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
+        const payload = payloads.CreateOrderWithDuplicateDUPFlag;
+        const today = new Date();
+
+        const formatDate = (date: Date) => {
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            const year = date.getFullYear();
+            return `${month}/${day}/${year}`;
+          };
+
+        const formatTimeForTimeZone = (timeZone: string) => {
+            const options = {
+                hour: '2-digit' as '2-digit',
+                minute: '2-digit' as '2-digit',
+                hour12: true,
+                timeZone
+            };
+        
+            const formatter = new Intl.DateTimeFormat('en-US', options);
+            return formatter.format(today);
+        };
+        
+        const timeInNJ = formatTimeForTimeZone('America/New_York');
+
+          payload.DateOfCollection = formatDate(today);
+          payload.TimeOfCollection = timeInNJ;
+          payload.InitialReceivedDate = formatDate(today);
+          payload.Tests[0].DateCollected = formatDate(today);
+          payload.Tests[1].DateCollected = formatDate(today);
+          
+          //console.log("today's Date:", formatDate(today));
+          //console.log('Time of NJ', timeInNJ);
+        
         const response = await request.post(testURL, {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'text/plain'
             },
-            data: payloads.CreateOrderWithDuplicateDUPFlag
+            data: payload
         })
 
         const responsebody = await response.json();
@@ -641,7 +675,7 @@ test.describe('Order Creation Negative Flows', async() => {
         let callingApp: string = 'SINGLE_SCREEN';
         let userName: string = 'Raj';
         let isScarlet: boolean = false;
-        let testURL = "https://orderservice-dev.bioreference.com/Order/Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
+        let testURL = baseUrl + "Create?callingApp=" + callingApp + "&userName=" + userName + "&clientID=&isScarlet=" + isScarlet;
 
         const response = await request.post(testURL, {
             headers: {
